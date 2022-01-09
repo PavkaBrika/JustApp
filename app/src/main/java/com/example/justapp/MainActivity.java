@@ -2,6 +2,7 @@ package com.example.justapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = new TextView(this);
         textView.setText("Wow!");
         textView.setTextSize(60);
+        textView.setTextColor(Color.RED);
         setContentView(textView);
     }
 }

@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = new TextView(this);
         textView.setText("Wow!");
-
+        textView.setTextSize(60);
         setContentView(textView);
     }
 }
